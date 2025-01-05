@@ -79,15 +79,4 @@ Ensure you have the following environment variables set:
 
 ## Deployment
 
-The application is hosted on Cloudflare Pages at [logpose.pages.dev](https://logpose.pages.dev). You can also deploy your own instance to any SvelteKit-compatible hosting platform.
-
-### Cloudflare Pages Deployment
-
-1. Fork this repository
-2. Connect your Cloudflare Pages account
-3. Create a new project and select your forked repository
-4. Configure your build settings:
-   - Build command: `npm run build`
-   - Build output directory: `build`
-   - Node.js version: 18.x
-5. Add your environment variables in the Cloudflare Pages dashboard
+The application is hosted on Cloudflare Pages at [log-pose-3p5.pages.dev](https://log-pose-3p5.pages.dev). You can also deploy your own instance to any hosting platform, using adapters.
